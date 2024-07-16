@@ -1,5 +1,5 @@
 // 1  reverse the Strings 
-function reverseStr(str) {
+// function reverseStr(str) {
     // let revStr= str.split("").reverse().join("")
     // return revStr ; 
 // let element = "";
@@ -8,13 +8,20 @@ function reverseStr(str) {
 //     }
 //     return element
 
-let revStr = "";
-for(let char of str){
-    revStr = char + revStr;
+// let revStr = "";
+// for(let char of str){
+//     revStr = char + revStr;
 
+// }
+// return revStr
+
+// }
+// console.log(reverseStr("reverse"));
+
+// check palindrome 
+function checkP(num){
+    let numStr = num.toString() ; 
+
+    return numStr.split("").reverse().join("")
 }
-return revStr
-
-}
-console.log(reverseStr("reverse"));
-
+console.log(checkP(123));

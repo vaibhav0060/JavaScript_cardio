@@ -19,9 +19,19 @@
 // console.log(reverseStr("reverse"));
 
 // check palindrome 
-function checkP(num){
-    let numStr = num.toString() ; 
+// function checkP(num){
+//     let numStr = num.toString() ; 
 
-    return numStr.split("").reverse().join("")
+//     return numStr.split("").reverse().join("")
+// }
+// console.log(checkP(123));
+
+// 
+// use of for loops 
+let str = "vaibhav"; 
+let element = "";
+for (let i = str.length; i >=0 ; i--) {
+    element =  str[i] + element;
+    
 }
-console.log(checkP(123));
+console.log(element);

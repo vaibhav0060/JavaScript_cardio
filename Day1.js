@@ -28,10 +28,24 @@
 
 // 
 // use of for loops 
-let str = "vaibhav"; 
-let element = "";
-for (let i = str.length; i >=0 ; i--) {
-    element =  str[i] + element;
+// let str = "vaibhav"; 
+// let element = "";
+// for (let i = str.length; i >=0 ; i--) {
+//     element =  str[i] + element;
     
+// }
+// console.log(element);
+
+// Capatalize a first  char of sentense 
+
+let sentense  = "the world is so big" ; 
+function capitalize(str){
+    let strArr = str.split(" ");
+    for (let i = 0; i < strArr.length; i++) {
+        strArr[i] =  strArr[i].substr(0,1).toUpperCase()+strArr.substr(1)
+        
+    }
+    return strArr ; 
+
 }
-console.log(element);
+console.log(capitalize(sentense))

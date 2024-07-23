@@ -42,7 +42,7 @@ let sentense  = "the world is so big" ;
 function capitalize(str){
     let strArr = str.split(" ");
     for (let i = 0; i < strArr.length; i++) {
-        strArr[i] =  strArr[i].substr(0,1).toUpperCase()+strArr.substr(1)
+        strArr[i] =  strArr[i].slice(0,1).toUpperCase() + strArr[i].slice(1) ; 
         
     }
     return strArr ; 

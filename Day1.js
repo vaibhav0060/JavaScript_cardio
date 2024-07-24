@@ -48,4 +48,11 @@ function capitalize(str){
     return strArr ; 
 
 }
-console.log(capitalize(sentense))
+console.log(capitalize(sentense)) 
+
+// async programming 
+
+// check for the max char in sentense .  
+
+
+
